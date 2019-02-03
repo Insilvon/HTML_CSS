@@ -1,0 +1,16 @@
+/* Color name */
+h1 {
+    background-color: DarkCyan;
+    color: White;
+}
+h2 {
+    background-color: #ee3e80;
+    color: LimeGreen;
+}
+p {
+    background-color: white;
+    rgb(100,100,90);
+}
+body {
+    background-color: LightBlue;
+}

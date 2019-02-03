@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <p>Forms collect information from your visitors. Important!</p>
+    <form>
+        <p>Text Input
+            <input type = "text" name="username" maxlength="30" size="15">
+        </p>
+
+        <p>Password Input
+            <input type = "password" name = "password" maxlength="30" size = "15">
+        </p>
+
+        <p>Radio
+            <input type = "radio" name = "ex" value = "op1" /> Option1
+            <input type = "radio" name = "ex" value = "op2" /> Option2
+            <input type = "radio" name = "ex" value = "op3" /> Option3
+        </p>
+
+        <p>Checkbox
+            <input type = "checkbox" name = "ex2" value = "op4" /> Option1
+            <input type = "checkbox" name = "ex2" value = "op5" /> Option2
+            <input type = "checkbox" name = "ex2" value = "op6" /> Option3
+        </p>
+
+        <p>Text Area</p>
+            <textarea name = "comments" rows="5" cols="5"></textarea>
+
+
+        <br />
+        <br />
+        <br />
+
+        <select name="devices">
+            <option value="ipod">iPod</option>
+            <option value = "ipad">iPad</option>
+            <option value ="iphone">iPhone</option>
+        </select>
+
+        <br />
+        <p>Multiple Selection Box</p>
+        <select name = "instruments" size = 3 multiple = "multiple">
+            <option value = "guitar">Guitar</option>
+            <option value = "bass">Bass</option>
+            <option value = "drums">Drums</option>
+        </select>
+
+        <p>File Upload Box</p>
+        <input type="file" name="users-song" /><br />
+        <input type = "submit" value = "Upload" />
+
+        <p>Submit button</p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe" value = "Subscribe" />
+        <!--<input type="image" src = "..." /> Allows you to use an image instead of a text button -->
+
+        <p>Button and Hidden Controls <br /> See textbook </p>
+
+        <p>Using Labels</p>
+        <label>Age: <input type="text" name = "age"/></label>
+
+
+        <p>Group Form Elements using a fieldset</p>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>
+                Email: <br />
+                <input type="text" name="email" />
+            </label>
+
+            <br/>
+
+            <label>
+                Mobile: <br/>
+                <input type="text" name = "mobile" />
+            </label>
+        </fieldset>
+
+        <p>Form Validation (Less work on program, more on browser!)</p>
+
+        <label for="Username">Username:</label>
+        <input type = "text" name = "username" required="required" /> <br />
+        <label for="password">Password:</label>
+        <input type="password" name = "password" required = "required" /> <br />
+        <input type = "submit" value = "Submit" />
+
+        <p>Entering Date Information</p>
+        <label for = "depart">Departure Date:</label>
+        <input type = "date" name = "depart" />
+        <input type = "submit" value = "Submit" />
+
+        <p>E-mail Input</p>
+        <input type = "email" name = "email" />
+        <input type = "submit" value = "Submit" />
+
+        <p>Search Input</p>
+        <input type = "search" name = "search" />
+        <input type = "submit" value = "Submit" />
+
+
+
+
+    </form>
+
+</body>
+</html>
