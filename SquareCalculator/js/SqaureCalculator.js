@@ -1,0 +1,1 @@
+var submission = document.getElementById('submission')
